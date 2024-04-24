@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, );
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    background-color: darkorange;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#um{
+    height: 25px;
+    width: 200px;
+    border: none;
+}
+
+/*display: flex;
+    align-items: center;
+    gap: 0;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;*/
+    
+
+
+
+
+
+
+
+
+    h2{
+        background-color: rgb(125, 166, 125);
+        color: black;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding: 8px;
+    }
+    h3{
+        font-size:x-large;
+        color: black;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding: 2px;
+    }
+
+    .container{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+
+    header{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    main{
+        
+        height: 70%;
+        width: 100%;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        background-color: rgb(166, 212, 153);
+        border-radius: 5px;
+        padding: 20px;
+        height: 450px;
+    }
+    input{
+        border: none;
+        width: 300px;
+        height: 40px;
+        margin: 5px;
+        margin-bottom: 8px;
+    
+    }
+   
+    
+    .botaovoltar{
+        width: 80px;
+        height: 40px;
+        border: none;
+        background-color: #023c0b;
+        border-radius: 8px;
+    
+    }
+    .botaovoltar a{
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: medium;
+        
+    }

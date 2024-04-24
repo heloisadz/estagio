@@ -1,0 +1,257 @@
+body{
+    height:600px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        height: 100%;
+        width: 100%;
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3% ;
+    grid-template-rows: 120px 60px 340px 80px;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "main main main"
+                         "footer footer footer" ;
+    }
+    
+    header{
+        grid-area: header;
+        background-color: rgb(69, 104, 69);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+    nav{ grid-area: nav;
+        background-color: rgb(133, 179, 133);
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    main{
+        grid-area: main;
+        /*background-color: palegoldenrod;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer{
+        grid-area: footer;
+        background-color: rgb(69, 104, 69);
+    }
+    
+    form{
+        height: 200px;
+        width: 1400px;
+        /*background-color: rgb(230, 239, 212);*/
+        padding: 10px;
+        
+        
+    }
+    h2{
+        background-color: rgb(125, 166, 125);
+        color: black;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding: 8px;
+    }
+    h3{
+        background-color: rgb(122, 165, 122);
+        color: black;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        padding: 8px;
+    }
+    h4{
+        text-align: center;
+    }
+    .simples{
+        height: 40px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .composto{
+        height: 40px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    .desc{
+        height: 60px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .solo{
+        height: 30px;
+        width: 98%;
+        background-color: rgb(119, 158, 119);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .duplo{
+        border-bottom: 5 px solid rgb(75, 105, 75) ;
+        height: 48px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        padding: 10px;
+
+        display: grid;
+    grid-template-columns:40% 60% ;
+    grid-template-rows: 100%;
+    grid-template-areas: "frase resto";
+    }
+    #frase{
+        grid-area: frase;
+        
+        justify-content: center;
+        height: 20px;
+        flex-direction: column;
+
+    }
+    table{
+        width: 100%;
+    }
+    .tabela{
+        height: 350px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+       
+    }
+    .tabela2{
+        height: 900px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+       
+    }
+    #tab{
+        margin: 2px;
+        width: 90%;
+        height: 25px;
+    }
+    th {
+        padding: 10px;
+    }
+
+.dois{
+    display: flex;
+    flex-direction: row;
+    grid-area: resto;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto{
+    height: 50px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+}
+
+    #um{
+        height: 25px;
+        width: 200px;
+        border: none;
+    }
+    #dois{
+        height: 25px;
+        width: 200px;
+        border: none;
+    }
+    #tres{
+        height: 25px;
+        width: 200px;
+        border: none;
+        margin-left: 5px;
+    }
+    
+    .botao{
+        height: 40px;
+        width: 98%;
+        background-color: rgba(145, 192, 144, 1);
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    #button{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 8px;
+        background-color: rgb(42, 66, 42);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-size: large;
+    text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+    }
+
+
+    #texto-maior{
+            width: 185px;
+            height: 40px;
+      
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        
+        border: 0;
+    }
+
+    .bot{
+        display: flex;
+        align-items:flex-end;
+        justify-content:flex-start;
+    }
+
+    .deslog{
+        background-color: aqua;
+        border-radius: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       
+    }
